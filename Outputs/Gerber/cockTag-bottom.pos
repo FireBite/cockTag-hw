@@ -1,0 +1,7 @@
+### Module positions - created on Wed Nov  9 14:02:44 2022 ###
+### Printed by Pcbnew version (6.0.4)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val            Package                PosX       PosY       Rot  Side
+BT1       CR2032_HOLDER  MY-2032-01        -150.2000  -100.0000  180.0000  bottom
+## End
