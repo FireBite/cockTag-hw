@@ -1098,10 +1098,10 @@
     (property "Reference" "BT1" (id 0) (at 141.224 123.6979 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 141.224 126.2379 0)
+    (property "Value" "CR2032_HOLDER" (id 1) (at 141.224 126.2379 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 137.16 125.476 90)
+    (property "Footprint" "Library:MY-2032-01" (id 2) (at 137.16 125.476 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 137.16 125.476 90)
@@ -1261,9 +1261,6 @@
     (path "/b6ef546a-f2cf-48f2-a973-1f8e7a78bf18/41340efd-75e6-4708-b439-b02e9d71b91c"
       (reference "#PWR018") (unit 1) (value "VCC") (footprint "")
     )
-    (path "/b6ef546a-f2cf-48f2-a973-1f8e7a78bf18/adf5825b-05e2-4ba8-bbf2-4e31b380b4d6"
-      (reference "#PWR019") (unit 1) (value "VCC") (footprint "")
-    )
     (path "/b6ef546a-f2cf-48f2-a973-1f8e7a78bf18/eabf5d34-2e10-43dd-997f-461d6a3e3e54"
       (reference "#PWR020") (unit 1) (value "GND") (footprint "")
     )
@@ -1272,12 +1269,6 @@
     )
     (path "/b6ef546a-f2cf-48f2-a973-1f8e7a78bf18/299d41bf-21bf-4b9b-aac2-73218a0d72b9"
       (reference "#PWR022") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/b6ef546a-f2cf-48f2-a973-1f8e7a78bf18/c1b28922-d556-474e-a19f-a0c855d01c01"
-      (reference "#PWR023") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/b6ef546a-f2cf-48f2-a973-1f8e7a78bf18/b84e2630-486c-4a62-9351-f87c70f82b70"
-      (reference "#PWR024") (unit 1) (value "GND") (footprint "")
     )
     (path "/b6ef546a-f2cf-48f2-a973-1f8e7a78bf18/8b48df41-a3f4-49d2-b565-f2f0405bfa96"
       (reference "#PWR025") (unit 1) (value "GND") (footprint "")
@@ -1312,9 +1303,6 @@
     (path "/b6ef546a-f2cf-48f2-a973-1f8e7a78bf18/8b441daf-2112-4cf4-bafb-885668bb95a1"
       (reference "AE1") (unit 1) (value "2450AT18A100E") (footprint "RF_Antenna:Johanson_2450AT18x100")
     )
-    (path "/b6ef546a-f2cf-48f2-a973-1f8e7a78bf18/6db25935-f174-400a-9206-a98abcf213c2"
-      (reference "B1") (unit 1) (value "nRF-BALUN") (footprint "Library:FIL_2450BM14E0003T")
-    )
     (path "/ecf8d323-0ebc-4e00-ab52-4c41c91a2e5b"
       (reference "BT1") (unit 1) (value "CR2032_HOLDER") (footprint "Library:MY-2032-01")
     )
@@ -1331,16 +1319,13 @@
       (reference "C3") (unit 1) (value "2u2") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/b6ef546a-f2cf-48f2-a973-1f8e7a78bf18/6335e93c-a32e-49c1-beda-01823bae59a1"
-      (reference "C4") (unit 1) (value "47n") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C4") (unit 1) (value "100p") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/b6ef546a-f2cf-48f2-a973-1f8e7a78bf18/1b77f2ae-2811-4fa8-aec1-206e287b8b14"
       (reference "C5") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/b6ef546a-f2cf-48f2-a973-1f8e7a78bf18/aecd2232-5ac4-42f3-a19d-9f028ec399cb"
       (reference "C6") (unit 1) (value "1p") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/b6ef546a-f2cf-48f2-a973-1f8e7a78bf18/1d49e18d-e59f-4231-bfbf-880c88e3c3ec"
-      (reference "C7") (unit 1) (value "47n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/b6ef546a-f2cf-48f2-a973-1f8e7a78bf18/34426879-3fbf-4507-8da5-57ea288b580f"
       (reference "C8") (unit 1) (value "12p") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -1362,6 +1347,12 @@
     )
     (path "/b6ef546a-f2cf-48f2-a973-1f8e7a78bf18/57db3d43-b1e2-4e5e-8eb0-7b089554626a"
       (reference "C14") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/b6ef546a-f2cf-48f2-a973-1f8e7a78bf18/58510748-0bc0-4ee0-8b0c-b975cd1dbfe6"
+      (reference "C?") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/b6ef546a-f2cf-48f2-a973-1f8e7a78bf18/9bc49620-4dce-4775-881f-f62ef11aa070"
+      (reference "C?") (unit 1) (value "100p") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/b6ef546a-f2cf-48f2-a973-1f8e7a78bf18/2ed370fa-93a3-4d09-aafa-1435208be822"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_0402_1005Metric")
@@ -1405,8 +1396,8 @@
     (path "/88c59e66-ea04-4734-be02-d8caac6d71bf"
       (reference "U1") (unit 1) (value "KXTJ3-1057") (footprint "Package_LGA:Kionix_LGA-12_2x2mm_P0.5mm_LayoutBorder2x4y")
     )
-    (path "/b6ef546a-f2cf-48f2-a973-1f8e7a78bf18/93d7a44c-76ed-451b-9826-f85e91bfd260"
-      (reference "U2") (unit 1) (value "nRF51x22-QFxx") (footprint "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm")
+    (path "/b6ef546a-f2cf-48f2-a973-1f8e7a78bf18/cc89fa23-a243-4555-89b5-e3868f114948"
+      (reference "U?") (unit 1) (value "nRF52832-QFxx") (footprint "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm")
     )
     (path "/b6ef546a-f2cf-48f2-a973-1f8e7a78bf18/b89f102e-e954-4ae2-9e75-0ec3efd3cbc9"
       (reference "Y1") (unit 1) (value "32.768kHz") (footprint "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm")
